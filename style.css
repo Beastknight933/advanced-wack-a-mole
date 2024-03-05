@@ -1,0 +1,242 @@
+
+body {
+  background: -webkit-linear-gradient(rgb(181, 230, 89), rgb(69, 147, 62), rgb(12, 63, 27));
+  background: -o-linear-gradient(rgb(181, 230, 89), rgb(69, 147, 62), rgb(12, 63, 27));
+  background: -moz-linear-gradient(rgb(181, 230, 89), rgb(69, 147, 62), rgb(12, 63, 27));
+  background: linear-gradient(rgb(181, 230, 89), rgb(69, 147, 62), rgb(12, 63, 27));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 0px;
+  cursor: url(https://i.postimg.cc/hPxVJZyt/hammerpngsmall.png), auto;
+}
+h1{
+  font-family: 'Barrio', cursive;
+}
+h3{
+  font-family: 'Barrio', cursive;
+}
+
+h6{
+  position:relative;
+  top:75px;
+  z-index:1000;
+  color:black;
+}
+
+button{
+  cursor:pointer;
+}
+#lives{
+  margin:none;
+}
+.circle {
+  background: black;
+  border-color: rgb(96, 60, 40);
+  border-width: 15px;
+  border-style: solid;
+  width: 63%;
+  height: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20%;
+  margin-top: 150px;
+}
+
+img {
+/* cursor: url(https://s29.postimg.org/iob23uo2v/hammerpngsmall.png), auto;
+  */
+  cursor:url(https://i.postimg.cc/hPxVJZyt/hammerpngsmall.png) 0 40,auto;/*adjust where pointer is on picture x,y*/
+}
+
+img:active{
+ /*transform: translateY(18px);*/
+ cursor:url(https://i.postimg.cc/g2W83yQq/hammerpngdown.png) 0 0, auto;
+ 
+}
+#mole1 {
+  height: 75%;
+  position: absolute;
+  top: 45px;
+  left: 25%;
+  margin-right: -50%;
+  
+}
+
+#mole2 {
+  height: 75%;
+  position: absolute;
+  top: 45px;
+  left: 25%;
+  margin-right: -50%;
+
+}
+
+#mole3 {
+  height: 75%;
+  position: absolute;
+  top: 45px;
+  left: 25%;
+  margin-right: -50%;
+
+}
+
+#mole4 {
+  height: 95%;
+  position: absolute;
+  top: -10%;
+  left: 30%;
+  margin-right: -50%;
+
+}
+
+#mole5 {
+  height: 95%;
+  position: absolute;
+  top: -10%;
+  left: 30%;
+  margin-right: -50%;
+
+}
+
+#deadMole1 {
+  height: 38%;
+  position: absolute;
+  top: 140px;
+  left: 32%;
+  margin-right: -50%;
+}
+
+#deadMole2 {
+  height: 38%;
+  position: absolute;
+  top: 140px;
+  left: 32%;
+  margin-right: -50%;
+}
+
+#deadMole3 {
+  height: 38%;
+  position: absolute;
+  top: 140px;
+  left: 32%;
+  margin-right: -50%;
+}
+
+#deadMole4 {
+  height: 50%;
+  position: absolute;
+  top: 34%;
+  left: 30%;
+  margin-right: -50%;
+}
+
+#deadMole5 {
+  height: 50%;
+  position: absolute;
+  top: 34%;
+  left: 30%;
+  margin-right: -50%;
+}
+
+@media (max-width: 650px) {
+  body{
+    cursor:auto;
+  }
+  .circle {
+    margin-left: 0px;
+    padding: 15px;
+    margin-top: 75px;
+    background: black;
+    border-color: rgb(96, 60, 40);
+    border-width: 10px;
+    border-style: solid;
+    width: 100%;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+ 
+ 
+  button{
+    cursor:pointer;
+    z-index:1000;
+  }
+  img {
+    cursor: pointer;
+  }
+  img:active{
+    cursor:pointer;
+  }
+  #mole1 {
+    height: 75%;
+    position: absolute;
+    top: 5px;
+    left: 15%;
+    margin-right: -50%;
+  }
+  #mole2 {
+    height: 75%;
+    position: absolute;
+    top: 5px;
+    left: 15%;
+    margin-right: -50%;
+  }
+  #mole3 {
+    height: 75%;
+    position: absolute;
+    top: 5px;
+    left: 15%;
+    margin-right: -50%;
+  }
+  #mole4 {
+    height: 75%;
+    position: absolute;
+    top: -7%;
+    left: 23%;
+    margin-right: -50%;
+  }
+  #mole5 {
+    height: 75%;
+    position: absolute;
+    top: -7%;
+    left: 23%;
+    margin-right: -50%;
+  }
+  #deadMole1 {
+    height: 35%;
+    position: absolute;
+    top: 60px;
+    left: 20%;
+    margin-right: -50%;
+  }
+  #deadMole2 {
+    height: 35%;
+    position: absolute;
+    top: 60px;
+    left: 20%;
+    margin-right: -50%;
+  }
+  #deadMole3 {
+    height: 35%;
+    position: absolute;
+    top: 60px;
+    left: 20%;
+    margin-right: -50%;
+  }
+  #deadMole4 {
+    height: 35%;
+    position: absolute;
+    top: 35%;
+    left: 23%;
+    margin-right: -50%;
+  }
+  #deadMole5 {
+    height: 35%;
+    position: absolute;
+    top: 35%;
+    left: 23%;
+    margin-right: -50%;
+  }
+}
