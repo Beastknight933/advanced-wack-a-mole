@@ -41,11 +41,11 @@ $('#audio3').prop('volume', 1);
     $("h6").text("After 110 points, you win. The amount of lives will be reset to 3 every "+difficulty+" points.");
   });
   $("#medium").on("click",function(){
-    difficulty=30;
+    difficulty=16;
      $("h6").text("After 110 points, you win. The amount of lives will be reset to 3 every "+difficulty+" points.");
   });
   $("#hard").on("click",function(){
-    difficulty=16;
+    difficulty=30;
      $("h6").text("After 110 points, you win. The amount of lives will be reset to 3 every "+difficulty+" points.");
   })
   $("#harder").on("click",function(){
