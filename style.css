@@ -9,7 +9,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   font-size: 0px;
-  cursor: url(https://i.postimg.cc/hPxVJZyt/hammerpngsmall.png), auto;
+  cursor: url(hammerpngsmall.png), auto;
 }
 h1{
   font-family: 'Barrio', cursive;
@@ -47,12 +47,12 @@ button{
 img {
 /* cursor: url(https://s29.postimg.org/iob23uo2v/hammerpngsmall.png), auto;
   */
-  cursor:url(https://i.postimg.cc/hPxVJZyt/hammerpngsmall.png) 0 40,auto;/*adjust where pointer is on picture x,y*/
+  cursor:url(hammerpngsmall.png) 0 40,auto;/*adjust where pointer is on picture x,y*/
 }
 
 img:active{
  /*transform: translateY(18px);*/
- cursor:url(https://i.postimg.cc/g2W83yQq/hammerpngdown.png) 0 0, auto;
+ cursor:url(hammerpngdown.png) 0 0, auto;
  
 }
 #mole1 {
